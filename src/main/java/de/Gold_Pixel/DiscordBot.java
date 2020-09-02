@@ -30,7 +30,7 @@ public class DiscordBot {
         INSTANCE = this;
 
         DefaultShardManagerBuilder builder = new DefaultShardManagerBuilder();
-        builder.setToken("NzUwNTk1NjUwMjIzMzQxNjY5.X080rA.BSVR3zl71XlblfCrGXCKESLkwa4");
+        builder.setToken("");
 
         builder.setActivity(Activity.playing("something."));
         builder.setStatus(OnlineStatus.ONLINE);
